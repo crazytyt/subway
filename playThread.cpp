@@ -231,7 +231,7 @@ void playThread::run()
         clean_up();
 
         QThread::sleep(2);
-        qDebug() << " start again. ";
+        g_print(" T: start again. ");
     } while(1);
 }
 
