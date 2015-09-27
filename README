@@ -1,0 +1,10 @@
+
+2015.9.27
+First Version
+=====================================
+1. To add log support, this program should be run with:
+	./subway 2>&1 1>/home/root/program.log
+
+2. Edit /etc/syslog.conf to add system log support
+	*.* /home/root/system.log
+
